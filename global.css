@@ -9,6 +9,81 @@
 .fundo-principal{
     display: flex;
     justify-content: center;
-    padding: 150px;
+    
+    
+}
+
+.fundo-img{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.img{
+    width: 100vh;
+    height: 100vh;
+}
+
+.textos-destaques{
+    position: absolute;
+    right: 0px;
+    top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.paragrafos{
+    position: absolute;
+    right: 45px;
+    top: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulo-destaque{
+    color: red;
+    font-weight: bolder;
+    width: 150px;
+    
+   
+}
+
+.texto-destaque{
+
+}
+
+.linha-vermelha{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    justify-content: flex-end;
+    
+
+}
+
+.linha-vermelha-p{
+    color: white;
+    z-index: 2000;
+    
+}
+
+.logos{
+    position: absolute;
+    right: 48px;
+    bottom: 102px;
+}
+
+.logo-senai{
+    width: 200px;
+}
+
+.logo-sesi{
+    width: 160px;
 }
 
